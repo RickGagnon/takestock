@@ -1,0 +1,9 @@
+.example-card {
+  width: 400px;
+  display:inline-block;
+  margin:30px;
+}
+
+  .example-card:hover {
+    background-color: #c38d9e;
+  }

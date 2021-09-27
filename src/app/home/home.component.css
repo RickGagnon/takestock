@@ -1,0 +1,16 @@
+.main {
+    padding:50px 50px;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.example-margin {
+    margin-right: 50px;
+    font-size: 30px;
+}

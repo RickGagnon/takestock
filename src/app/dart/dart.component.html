@@ -1,0 +1,41 @@
+<div class="center">
+
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label>Price/unit</mat-label>
+    <input matInput type="number" min="0.00" (change)="calculate()"  (keyup)="calculate()"  [(ngModel)]="purchaseprice">
+  </mat-form-field>
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label># Of Units</mat-label>
+    <input matInput type="number"  min="1" (keyup)="calculate()" (change)="calculate()" [(ngModel)]="numberofunits">
+  </mat-form-field>
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label>Fee (Buy)</mat-label>
+    <input matInput type="number" (keyup)="calculate()" (change)="calculate()" [(ngModel)]="purchasefee">
+  </mat-form-field>
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label>Fee (Sell)</mat-label>
+    <input matInput type="number" (keyup)="calculate()" (change)="calculate()" [(ngModel)]="sellfee">
+  </mat-form-field>
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label>Cost Price</mat-label>
+    <input matInput type="number" [(ngModel)]="costprice">
+  </mat-form-field>
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label>Actual Price/unit</mat-label>
+    <input matInput type="number"  min="0" [(ngModel)]="actualcostperunit">
+  </mat-form-field>
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label>% Return</mat-label>
+    <input matInput type="number" (keyup)="calculate()" (change)="calculate()"  min="0" [(ngModel)]="percentreturn">
+  </mat-form-field>
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label>Sell Price</mat-label>
+    <input matInput type="number" [(ngModel)]="sellprice">
+  </mat-form-field>
+  <mat-form-field class="example-margin" appearance="outline">
+    <mat-label>Sell Price/unit</mat-label>
+    <input matInput type="number" [(ngModel)]="sellpriceperunit">
+  </mat-form-field>
+
+
+</div>

@@ -1,0 +1,11 @@
+.full-width-table {
+  width: 100%;
+}
+.mat-row:hover {
+  background-color: #4e94c3;
+  font:bolder;
+}
+mat-toolbar {
+  background-color: #3d695e;
+  color: white;
+}

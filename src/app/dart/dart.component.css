@@ -1,0 +1,20 @@
+.main {
+    padding:50px 50px;
+}
+
+.center {
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    height:100vh;
+    font-size: 200px;;
+}
+
+.example-margin {
+    margin-right: 50px;
+    font-size: 30px;
+}
+
+
+
+
